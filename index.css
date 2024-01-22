@@ -1,0 +1,72 @@
+body {
+    background-image: url("flowers.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #80b918;
+    text-shadow: 2px 2px 5px yellowgreen;
+    
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #80b918;
+    text-shadow: 2px 2px 5px yellowgreen;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #ff0a54;
+}
+
+#save-btn {
+    background: #6930c3;
+}
+
+#increment-btn:hover {
+    background: #ff85a1;
+    color: #ff0a54;
+    box-shadow: 0px 0px 5px #ff0a54;
+    text-shadow: 1px 1px 5px white;
+}
+
+#save-btn:hover {
+    background: #c77dff;
+    color: #6930c3;
+    box-shadow: 0px 0px 5px #6930c3;
+    text-shadow: 1px 1px 5px white;
+}  
+
+#flowers {
+    background: white;
+    opacity: 0.8;
+    border-radius: 15px;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid yellowgreen;
+    
+}
+
+#save-el {
+    color: #80b918;
+    text-shadow: 2px 2px 5px yellowgreen;
+}
